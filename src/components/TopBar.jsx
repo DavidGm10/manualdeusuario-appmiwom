@@ -8,7 +8,7 @@ export default function TopBar({ onGoToIndex }) {
         Manual<span>MiWom</span> · Interactivo
       </div>
       <button className={styles.topBarBtn} onClick={() => onGoToIndex(SLIDES.INDEX)}>
-        📑 Ir al Índice
+         Ir al Índice
       </button>
     </div>
   );
